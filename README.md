@@ -10,5 +10,5 @@ TypeScript 開發手冊
   
   ```ts
   // 不限制參數類型
-  type MyFunction = (...args: any) => void;
+  type MyFunction = (...args: Array<any>) => void;
   ```
